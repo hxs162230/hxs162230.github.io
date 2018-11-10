@@ -1,0 +1,92 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	text-align: center;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+	text-align: center;
+}
+
+#wordbox1{
+	   margin: 0 auto;
+}
+
+#fadeout,#fadein,#fadetoggle,#fadeto{
+ background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	float:middle;
+}
+
+
+.p1,.p2,.p3,.p4,.cp1{
+	text-align: center;
+	background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+#images{
+	display: block;
+	 margin-left: auto;
+    margin-right: auto;
+}
+
+#word1{
+	font-size:60px;
+	background-color:blue;
+	border: 1px solid black;
+}
+#word2{
+	font-size:60px;
+	background-color:red;
+
+}
+#word3{
+	font-size:60px;
+	background-color:yellow;
+	border: 1px solid black;
+}
+#word4{
+	font-size:60px;
+	background-color:blue;
+}
+#word5{
+	font-size:60px;
+	background-color:green;
+}
+#word6{
+	font-size:60px;
+	background-color:red;
+	border: 1px solid black;
+}
+#word7{
+	font-size:60px;
+	background-color:yellow;
+}
+#word8{
+	font-size:60px;
+	background-color:blue;
+}
+#word9{
+	font-size:60px;
+	background-color:red;
+	border: 1px solid black;
+}
+#word10{
+	font-size:60px;
+	background-color:yellow;
+	border: 1px solid black;
+}

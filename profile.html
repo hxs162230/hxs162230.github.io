@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+	<meta name="keywords" content="IVAN, ivan, huan ping su, Huan, Ivansu, HUAN PING SU">
+   <meta name="description" content="my first personal web page.">
+	<meta name="author" content="Ivan Su">
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>My personal site page</title>
+	<link href="style/style.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/js.js"></script>
+ 
+
+  
+	</head>
+ <body>
+ <div id="image_map">
+
+<img id="images" src="images\myInterest.jpg" width="50%" height="50%" alt="myInterest" usemap="#Interestmap">
+<map name="Interestmap">
+  <area href="https://en.wikipedia.org/wiki/Baseball" alt="baseball" target="_blank" shape=rect coords="55,160, 335,210"> 
+  <area href="https://en.wikipedia.org/wiki/Drawing" alt="drawing" target="_blank" shape=rect coords="55,250, 275,280">
+  <area href="https://en.wikipedia.org/wiki/Hiking" alt="hiking" target="_blank" shape=rect coords="80,350,295,400"> 
+  <area href="https://en.wikipedia.org/wiki/Coding" alt="coding" target="_blank" shape=rect coords="70,430,340,500"> 
+  </map>
+  </div>   
+
+  <div id="eduHistory">
+  <p class="p2"><strong>Education History</strong></p>
+  <ul>
+  <li>NATIONAL CHIAO TUNG UNIVERSITY  BS. EE.</li>
+  <li>UNIVERSITY OF TEXAS AT DALLAS  MS.  TE.</li>
+</ul>  
+</div>
+  
+  <div id="projecctList">
+  <p class="p3"><strong>Project History</strong></p>
+  <ol>
+  <li>Machine learning algorithm implementation, July 2018
+ : Design a neural network that will learn to classify as accurately as possible the two datasets</li>
+  <li>File and indexing in database design, July 2017  :  Developed a rudimentary database engine and operated entirely from command line</li>
+	<li>Implementing Library management system, June 2017  :  Created a database host application that interfaces with a SQL database</li>
+	<li>Developed a simulation of an ad-hoc Network, January 2017  :  Implement scalable data-structures, determination of connectivity</li>
+	<li>Designed Video Streaming with RTSP and RTP, September 2016  :  Implement the RTSP protocol in the client and applied the RTP packetization in the server
+</li>
+  </ol>  
+</div>
+	<div id="courseTakenList">
+  <table style="width:100%">
+  <caption class="cp1"><strong>Course Taken</strong></caption>
+  <tr>
+    <th>Course Name</th>
+    <th>Semester Year</th>
+	 <th>Grade</th>
+  </tr>
+  <tr>
+    <td>ALGORITHM AND DATA STRUCTURES</td>
+    <td>2016 Fall</td>
+	 <td>A</td>
+  </tr>
+  <tr>
+    <td>OPERATING SYSTEMS CONCEPTS</td>
+    <td>2016 Fall</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>PROBABILITY THEORY & STATISTCS</td>
+    <td>2017 Spring</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>PERF OF COMP SYSTEMS/NETWORKS</td>
+    <td>2017 Fall</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>ALGORITHMIC ASPECTS/TELECOM NT</td>
+    <td>2017 Fall</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>FIELDS AND WAVES</td>
+    <td>2017 Fall</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>DIGITAL COMMUNICATION SYSTEMS</td>
+    <td>2018 Spring</td>
+	 <td>A</td>
+  </tr>
+  	  <tr>
+    <td>DIGITAL SIGNALS PROCESSING I</td>
+    <td>2018 Spring</td>
+	 <td>A</td>
+  </tr>
+    <tr>
+    <td>MACHINE LEARNING</td>
+    <td>2018 Summer</td>
+	 <td>A</td>
+  </tr>
+</table>
+</div>
+  <br>
+  <br>
+  <br>
+  
+
+ <button id="hide">Hide</button>
+<button id="expand">Expand</button>
+<button id="hideshowToggle">Hide/Expand</button>
+  <div id="autoBio">
+  <article>
+	<h1>About Me</h1>
+	<p class="p5">&nbsp&nbsp&nbsp&nbsp I graduated from National Chiao Tung University,
+	one of the most prestigious schools in Taiwan, in the department of Electrical and Computer Engineering.
+	I started college in the Civil Engineering Department,
+	but in my Freshman year I took courses in Physics and Computer Science and started working on a small wind turbine. This really interested me in EE,
+	so I decided to transfer to the EE Department in my Sophomore year. In my senior year at NCTU,
+	I decided to consult Professor Yon-Ping Chen,
+	who had already made many contributions in signal and system in research on Image Signal Processing and Intelligent System Design. Thereby I obtained not only a chance to put my knowledge into practice,
+	but also to learn the importance of logical thinking and carefulness.
+	In class, Dr. Chen also frequently told about his experience studying abroad,
+	which inspired me to think of studying abroad myself. </p>
+  </article>
+  </div>
+  
+  
+  <div id="messageForm">
+  <p class="p6"><strong>Leave message to me.</strong></p>
+  <form>
+  <fieldset>
+  <legend>Your personal information</legend>
+  Your First name:<br>
+  <input id="fname" type="text" name="firstname" required autocomplete="on"><br>
+  Your Last name:<br>
+  <input id="lname" type="text" name="lastname" required autocomplete="on"><br>
+  Your Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+	<br><br>
+	<p class="p7">message box</p>
+	<textarea name="message" rows="10" cols="100" required autocomplete="on"></textarea>
+	<br>
+   <input id="submit" type="submit" value="Contact me.">
+   <input type="reset" value="Reset">
+</fieldset>
+   </form>
+   </div>
+  
+  
+
+
+
+  
+ <div id="emailContact"> 
+ <footer>
+  <p>Name : Huan Ping Su</p>
+  <p>Contact information: <a href="mailto:hxs162230@utdallas.edu">
+   hxs162230@utdallas.edu</a>.</p>
+</footer>
+</div> 
+ </body>
+</html>

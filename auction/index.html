@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Modern Business - Start Bootstrap Template</title>
+	<style>
+		#typewrite {
+	 background-size: cover;
+	background-image: url("https://media.npr.org/assets/img/2014/03/13/istock_000004424808medium_wide-0af4cc557df8d5b9e653d2eef9398c44f5a0cd07.jpg?s=1400");
+	text-align: center;
+	color:#fff;
+	padding-top:10em;
+	}
+		.important {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	-webkit-transition: width 4s; /* Safari */
+	animation-name: example;
+    transition: width 4s;
+	}
+.important:hover {   
+   width: 300px;	
+   text-align: center;
+	 -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(8deg);
+}
+
+</style>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js" ></script>
+	<script src="js/doc.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">PraiseAuction</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="profileinfo.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Order summary</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="portfolio-2-col.html">My Auction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" >
+          <a href="profileinfo.html" target="_blank"> <img class="d-block w-100" src="https://i.pinimg.com/originals/c6/d6/ee/c6d6ee225945b897eb4902208e693a8c.jpg" alt="first slide"></a>
+			<div class="carousel-caption d-none d-md-block">
+              <h3>Profile information </h3>
+              <p>Click image for your personal profile.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" >
+		  <a href="about.html" target="_blank"> <img class="d-block w-100" src="https://i.pinimg.com/originals/d6/04/e7/d604e7ee340c9c590f571b2ce603e424.jpg" alt="second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Order summary </h3>
+              <p>Click image for checking your order lists.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" >
+		  <a href="about.html" target="_blank"> <img class="d-block w-100" src="https://images.unsplash.com/photo-1537531579368-1af433cf6f06?ixlib=rb-0.3.5&s=316a4eaa5dc92ce298174c3618c5dbd5&w=1000&q=80" alt="second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Post your item now</h3>
+              <p>Click image for getting ready to auction.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+</br>
+</br>
+	<h1 id="typewrite">
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, this is the best auction site.", "I am Creative.", "I love to help.", "I love to connect." ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+
+	
+		
+    <!-- Page Content -->
+    <div class="container">
+      <h1 class="my-4">Welcome to PraiseAuction double click to fade me</h1>
+		</br>
+		</br>
+		<button id="click" type="button" class="btn btn-secondary btn-lg btn-block">Click to hide/show Item</button>
+      <!-- Portfolio Section -->
+		</br>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM One</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM Two</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM Three</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM Four</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM Five</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ITEM Six</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <hr>
+
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright Huan Ping Su; Designed by Huan Ping Su 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
